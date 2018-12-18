@@ -1,0 +1,23 @@
+body
+{
+    background-color:aqua;
+}
+p.firstline::first-line
+{
+    color:green;
+}
+
+p.firstletter::first-letter
+{
+   color:red;
+}
+
+p.before::before
+{
+    content:"Name - ";
+}
+
+p.after::after
+{
+    content: "- USA spider man House";
+}

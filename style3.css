@@ -1,0 +1,18 @@
+body {
+
+    background-color:gold;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h1.before::before {
+    content: "Name - "
+}
+
+h2.after::after {
+    content: " - USA spider man house"
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment nnumber 3</title>
+</head>
+
+<body>
+    <!-- here we have shown the explae of the innerhtml-->
+
+
+    <p id="Inner" onclick="innerfunction()">Inner HTML Can be used to define </p>
+
+    <button onclick="innerfunction()">Inner Html Text Change</button>
+
+    <script>
+        function innerfunction() {
+            document.getElementById("Inner").innerHTML = "Inner html can be changed by using this";
+        }
+    </script>
+
+
+    <!-- Here we have shown the exmpale of inner Text-->
+
+    <p id="Innertext" onclick="innertext()">Inner HTML Can be used to define </p>
+
+    <button onclick="innertext()">Inner text</button>
+
+    <script>
+        function innertext() {
+            document.getElementById("Innertext").innerText = "Inner text can be changed by using this property";
+        }
+    </script>
+    </br>
+    </br>
+    </br>
+
+    <!-- codument .write exmaple-->
+    <p> here the document write will be used for displaying the ouptut </p>
+    <script>
+        var a = 10;
+        document.write(a);
+    </script>
+    <!---
+
+
+difference between innerhtml and innertext
+
+-inerhtml and inner text retives the and diaplying the required changes 
+-but here inner html dispalyes the text  in the html formated while inner text dispales in normal format
+- so we need to use always the inner html to get the html display 
+
+
+-->
+</body>
+
+</html>
